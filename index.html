@@ -24,18 +24,20 @@
   <link rel="stylesheet" href="/css/site.css" />
   <link rel="stylesheet" href="/css/themes.css" />
   <link rel="stylesheet" href="/css/menuPill.css" />
+  <link rel="stylesheet" href="/css/iconCard.css" />
 
   <!-- Favicon -->
   <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
 </head>
 
-<body data-je-theme="red">
+<body data-je-theme="purple">
 
   <div id="menuPillContainer" class="navbar navbar-dark">
     <nav id="menuPill" class="navbar-nav text-light">
       <div class="nav-item">
         <a class="nav-link active" href="#home">
-          <div class="icon-container">
+          <div class="icon-container" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Home"
+            data-bs-custom-class="nav-tooltip">
             <i class="bi bi-house-fill"></i>
           </div>
           <span class="menu-label">Home</span>
@@ -43,7 +45,8 @@
       </div>
       <div class="nav-item">
         <a class="nav-link" href="#about">
-          <div class="icon-container">
+          <div class="icon-container" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="About Me"
+            data-bs-custom-class="nav-tooltip">
             <i class="bi bi-info-circle-fill"></i>
           </div>
           <span class="menu-label">About Me</span>
@@ -51,7 +54,8 @@
       </div>
       <div class="nav-item">
         <a class="nav-link" href="#skills">
-          <div class="icon-container">
+          <div class="icon-container" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Skills"
+            data-bs-custom-class="nav-tooltip">
             <i class="bi bi-wrench-adjustable"></i>
           </div>
           <span class="menu-label">Skills</span>
@@ -59,7 +63,8 @@
       </div>
       <div class="nav-item">
         <a class="nav-link" href="#projects">
-          <div class="icon-container">
+          <div class="icon-container" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Projects"
+            data-bs-custom-class="nav-tooltip">
             <i class="bi bi-braces-asterisk"></i>
           </div>
           <span class="menu-label">Projects</span>
@@ -67,7 +72,8 @@
       </div>
       <div class="nav-item">
         <a class="nav-link" href="#challenges">
-          <div class="icon-container">
+          <div class="icon-container" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Challenges"
+            data-bs-custom-class="nav-tooltip">
             <i class="bi bi-terminal"></i>
           </div>
           <span class="menu-label">Challenges</span>
@@ -75,7 +81,8 @@
       </div>
       <div class="nav-item">
         <a class="nav-link" href="#blog">
-          <div class="icon-container">
+          <div class="icon-container" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Blog"
+            data-bs-custom-class="nav-tooltip">
             <i class="bi bi-quote"></i>
           </div>
           <span class="menu-label">Blog</span>
@@ -83,7 +90,8 @@
       </div>
       <div class="nav-item">
         <a class="nav-link" href="#contact">
-          <div class="icon-container">
+          <div class="icon-container" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Contact"
+            data-bs-custom-class="nav-tooltip">
             <i class="bi bi-envelope-at-fill"></i>
           </div>
           <span class="menu-label">Contact</span>
@@ -92,7 +100,7 @@
     </nav>
   </div>
 
-  <main>
+  <main data-bs-spy="scroll" data-bs-target="#menuPill">
     <section id="home">
       <div id="homeCover">
         <div id="mainHeader">
@@ -111,10 +119,127 @@
       </div>
     </section>
     <section id="about" class="section-page">
-      <h1>About</h1>
+      <div class="container text-center">
+        <h2 class="display-1 mb-5">About Me</h2>
+        <a href="https://storyset.com/web" target="_blank" rel="noopener noreferrer" data-bs-toggle="tooltip"
+          data-bs-title="Web illustrations by Storyset" data-bs-placement="right">
+          <img src="/img/Coding-bro.svg" height="250" class="p-3" />
+        </a>
+        <div class="row">
+          <div class="col-lg-8 offset-lg-2">
+            I am a software developer based in the United States. I have been building applications and websites for
+            years. I have been successful in taking a company's idea and bringing it to life. I primarily use C# and
+            .NET to build web applications. I can take an idea and turn it into meaningful and useful software products.
+            The ability to transform requirements into useful software helps me prioritize tasks, iterate fast, and
+            deliver. Take a look at my portfolio work and see if we can work together on your next project!
+          </div>
+        </div>
+        <a href="/resume.pdf" class="btn btn-primary my-3">Download Resume</a>
+      </div>
     </section>
     <section id="skills" class="section-page">
-      <h1>Skills</h1>
+      <div class="container">
+        <h2 class="text-center display-1 mb-5">What I Use</h2>
+        <div class="row gy-5">
+          <div class="col-lg-6">
+            <div class="icon-card">
+              <div class="icon-card-header">
+                <div class="icon">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" />
+                </div>
+                <div class="icon">
+                  <img src="/img/icons/dotnet.png" />
+                </div>
+              </div>
+              <div class="icon-card-body">
+                <p>
+                  I use C# on a daily basis to build full-stack web
+                  applications. You can see my work implementing C#
+                  in my <a href="#projects">projects</a> section!
+                </p>
+                <p>
+                  I use proven design patterns and frameworks to build
+                  websites. ASP.NET Core Web and MVC fits the bill for
+                  most projects.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="icon-card">
+              <div class="icon-card-header">
+                <div class="icon">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
+                </div>
+                <div class="icon">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
+                </div>
+                <div class="icon">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" />
+                </div>
+              </div>
+              <div class="icon-card-body">
+                <p>
+                  I use HTML, CSS, and Bootstrap to build beautiful
+                  responsive websites. Bootstrap is my go to CSS framework.
+                  Many shy away from the front-end, but I embrace it.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="icon-card">
+              <div class="icon-card-header">
+                <div class="icon">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                </div>
+              </div>
+              <div class="icon-card-body">
+                <p>
+                  JavaScript is the language of the web. I use
+                  vanilla JS and I am comfortable with many JS
+                  frameworks. Check out my
+                  <a href="#challenges">challenges</a> section
+                  for some JS projects!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="icon-card">
+              <div class="icon-card-header">
+                <div class="icon">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" />
+                </div>
+              </div>
+              <div class="icon-card-body">
+                <p>
+                  SQL is the language of the database. My projects
+                  all utilize a database. I have used Postgres on all
+                  of them. I can write SQL on any DB platform.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="icon-card">
+              <div class="icon-card-header">
+                <div class="icon">
+                  <img src="/img/icons/git.png">
+                </div>
+                <div class="icon">
+                  <img src="/img/icons/github.png">
+                </div>
+              </div>
+              <div class="icon-card-body">
+                I use git and github for all my projects. Git is
+                the most used source control framework on the
+                planet. I also employ CI/CD for publishing.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <section id="projects" class="section-page">
       <h1>Projects</h1>
@@ -174,6 +299,11 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>
+
+  <script>
+    const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+    const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+  </script>
 </body>
 
 </html>
