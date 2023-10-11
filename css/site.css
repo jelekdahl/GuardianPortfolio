@@ -108,17 +108,42 @@ a:hover {
 
 /* #region Section Styles */
 
-.section-page:nth-child(odd) {
+.section-page:nth-child(odd),
+.section-page:nth-child(odd)>.container::after {
   background-color: var(--je-theme-150);
 }
 
-.section-page:nth-child(even) {
+.section-page:nth-child(even),
+.section-page:nth-child(even)>.container::after {
   background-color: var(--je-theme-100);
 }
 
 .section-page {
   padding-top: 5rem;
   padding-bottom: 5rem;
+  position: relative;
+}
+
+.section-page>.container::after {
+  content: "";
+  position: absolute;
+  background-color: red;
+  height: 3rem;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  bottom: -3rem;
+
+  /* rounded dividers */
+  /* clip-path: ellipse(50% 100% at top center); */
+}
+
+.section-page:nth-child(even)>.container::after {
+  clip-path: polygon(0% 0%, 100% 0%, 0% 100%);
+}
+
+.section-page:nth-child(odd)>.container::after {
+  clip-path: polygon(100% 100%, 100% 0%, 0% 0%);
 }
 
 /* #endregion Section Styles */
