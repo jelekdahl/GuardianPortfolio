@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 0 360 360"
-    style="background-color:#f6f6f6;" class="css-1j8o68f"
+    style="background-color:#d0d0d0;" class="css-1j8o68f"
     xmlns:bx="https://boxy-svg.com">
   <defs id="SvgjsDefs3641">
     <bx:grid x="-4.921" y="0" width="89.543" height="90.158"/>
@@ -8,7 +8,7 @@
   <g id="SvgjsG3642" featurekey="symbolGroupContainer" transform="matrix(2.106351, 0, 0, 2.106351, 70.082444, 45.164895)" fill="#236B23" style="">
     <circle xmlns="http://www.w3.org/2000/svg" cx="50" cy="50" r="50"/>
   </g>
-  <g id="SvgjsG3643" featurekey="DUScZC-0" transform="matrix(1.614872, 0, 0, 1.614872, 94.925035, 70.209161)" fill="#f6f6f6" style="">
+  <g id="SvgjsG3643" featurekey="DUScZC-0" transform="matrix(1.614872, 0, 0, 1.614872, 94.925035, 70.209161)" fill="#d0d0d0" style="">
     <g xmlns="http://www.w3.org/2000/svg">
       <polygon points="54.793,78.123 51.608,78.794 50,80.585 48.392,78.794 45.207,78.123 47.983,79.872 49.993,82.42 49.993,82.438    50,82.429 50.008,82.438 50.008,82.42 52.019,79.872  "/>
       <g>
