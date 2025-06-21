@@ -55,6 +55,44 @@ a:hover {
   color: var(--je-theme-400);
 }
 
+a.link-gold {
+  background-image: linear-gradient(0.35turn, #b79453, #b79453 50%, #fff6a5, #b79453 81.25%, #b79453);
+  background-size: 200% 100%;
+  background-position: top right;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  transition: all 0.25s ease-in-out;
+  animation: animate-bg 1.5s infinite linear;
+}
+
+@keyframes  animate-bg {
+  0% {
+    background-position: top right;
+  }
+
+  50% {
+    background-position: top right 100%;
+  }
+
+  100% {
+    background-position: top right 100%;
+  }
+}
+/*
+a.link-gold::before,
+a.link-gold::before,
+a.link-gold::before {
+  
+}
+
+  a.link-gold:hover::before,
+  a.link-gold:active::before,
+  a.link-gold:focus::before {
+    
+  }
+*/
 .btn-primary {
   --bs-btn-bg: var(--je-theme-600);
   --bs-btn-border-color: var(--je-theme-600);
