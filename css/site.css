@@ -64,10 +64,10 @@ a:hover {
   -webkit-background-clip: text;
   background-clip: text;
   transition: all 0.25s ease-in-out;
-  animation: animate-text-shine 2s infinite linear;
+  animation: animate-text-shine 1.75s infinite linear;
 }
 
-@keyframes  animate-text-shine {
+@keyframes animate-text-shine {
   0% {
     background-position: top right;
   }
@@ -83,7 +83,6 @@ a:hover {
 
 .gold-underline {
   text-decoration: none;
-  
 }
 
 .gold-underline:hover,
