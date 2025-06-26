@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -17.5 350 350" class="looka-1j8o68f" style="background-color:#53688f" xmlns:bx="https://boxy-svg.com">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -17.5 350 350" class="looka-1j8o68f" xmlns:bx="https://boxy-svg.com">
   <defs id="SvgjsDefs6278">
     <bx:grid x="-0.468" y="-17.33" width="43.794" height="43.794"/>
   </defs>
+  <rect x="0" y="-17.5" width="350" height="350" style="fill: #53688f;"/>
   <g transform="matrix(1, 0, 0, 1, -0.000004, -1.840694)">
     <g id="SvgjsG6279" featurekey="5TMTKC-0" transform="matrix(1.930073, 0, 0, 1.930073, 78.455804, 39.250779)" fill="#ffcee4" style="">
       <title xmlns="http://www.w3.org/2000/svg">Artboard 22</title>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="25 -55.104939299093 300 300" style="background-color:#830004;" class="css-1j8o68f" xmlns:bx="https://boxy-svg.com">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="25 -55.104939299093 300 300" class="css-1j8o68f" xmlns:bx="https://boxy-svg.com">
   <defs id="SvgjsDefs9870">
     <linearGradient id="SvgjsLinearGradient9875">
       <stop id="SvgjsStop9876" stop-color="#b88746" offset="0"/>
@@ -7,6 +7,7 @@
     </linearGradient>
     <bx:grid x="-25.288" y="-38.958" width="66.51" height="66.509"/>
   </defs>
+  <rect x="25" y="-55.104939299093" width="300" height="300" style="fill: #830004;"/>
   <g transform="matrix(1, 0, 0, 1, -0.000023, -9.110532)">
     <g id="SvgjsG9871" featurekey="symbolFeature-0" transform="matrix(1.515155, 0, 0, 1.515155, 106.81888, -17.271879)" fill="url(#SvgjsLinearGradient9875)">
       <path xmlns="http://www.w3.org/2000/svg" fill="url(#SvgjsLinearGradient9875)" d="M27.741,55.577C14.709,35.687,11.319,14.628,19.528,6.948c-1.814,0.18-3.486,0.687-4.937,1.636  c-9.969,6.532-6.487,29.473,7.776,51.24c14.263,21.769,33.91,34.119,43.877,27.591c1.968-1.291,3.395-3.242,4.334-5.678  C60.591,88.162,41.44,76.48,27.741,55.577z"/>

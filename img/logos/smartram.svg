@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 0 360 360" style="background-color:#f6f6f6;" class="css-1j8o68f" xmlns:bx="https://boxy-svg.com">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 0 360 360" class="css-1j8o68f" xmlns:bx="https://boxy-svg.com">
   <defs id="SvgjsDefs3641">
     <bx:grid x="-4.921" y="0" width="89.543" height="90.158"/>
   </defs>
+  <rect x="-5" y="0" width="360" height="360" style="fill: #f6f6f6;"/>
   <g transform="matrix(1, 0, 0, 1, 0.000015, -1.43325)">
     <g id="SvgjsG3642" featurekey="symbolGroupContainer" transform="matrix(1.971456, 0, 0, 1.971456, 76.427201, 45.164895)" fill="#236B23" style="">
       <circle xmlns="http://www.w3.org/2000/svg" cx="50" cy="50" r="50"/>
