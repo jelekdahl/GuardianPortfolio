@@ -1,5 +1,5 @@
 function fetchBlogData() {
-  const baseUrl = 'https://guardianblog-production.up.railway.app';
+  const baseUrl = 'https://commentlines.up.railway.app';
 
   fetch(`${baseUrl}/api/BlogPosts/portfolio/3`)
     .then((response) => response.json())
